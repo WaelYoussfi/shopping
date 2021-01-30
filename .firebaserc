@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "recipe-book-shop": {
+      "hosting": {
+        "shopping": [
+          "recipe-book-shop"
+        ]
+      }
+    }
+  }
+}
