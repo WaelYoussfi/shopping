@@ -10,7 +10,7 @@ export class RecipeService {
   private recipes: Recipe[] = [
     new Recipe(
       'Pizza',
-      'Some tasty shit',
+      'A dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients',
       'https://media.fshoq.com/images/316/pizza-with-vegetables-on-a-wooden-table-316-small.jpg',
       [
         new Ingredient('Cheese', 5),
@@ -19,13 +19,15 @@ export class RecipeService {
       ]
     ),
     new Recipe(
-      'Pizza again',
-      'Still damn tasty',
-      'https://media.fshoq.com/images/316/pizza-with-vegetables-on-a-wooden-table-316-small.jpg',
+      'Hamburger',
+      'A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties, usually ground meat, typically beef placed inside a sliced bread roll or bun',
+      'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.6qK8Adcg2la_JP1YASlAkAHaEK%26pid%3DApi&f=1',
       [
-        new Ingredient('Cheese', 4),
+        new Ingredient('Cheese', 2),
         new Ingredient('Tomatoes', 2),
-        new Ingredient('Wheat', 2),
+        new Ingredient('Ground meat', 1),
+        new Ingredient('Lettuce', 2),
+        new Ingredient('Bread', 2),
       ]
     ),
   ];
